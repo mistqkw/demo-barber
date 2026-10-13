@@ -10,7 +10,7 @@ Demo strony i bota Telegram dla małej firmy (barbershop). Projekt pokazowy auto
 
 ### Co zawiera
 
-- **Landing** (`index.html`, `style.css`, `main.js`): czysty HTML/CSS/JS, GSAP + ScrollTrigger (pojawianie się bloków, paralaksa, animowane liczniki), płynny scroll (Lenis), jasny i ciemny motyw, układ mobilny, formularz rezerwacji (w demo nie wysyła danych).
+- **Landing** (`index.html`, `style.css`, `main.js`): czysty HTML/CSS/JS, własny układ i animacje: reflektor «cienia» podążający za kursorem, pływające litery z paralaksą, manifest zapalający się słowo po słowie, linia brzytwy rysowana przy przewijaniu, cennik z poziomym scrollem (GSAP + ScrollTrigger, Lenis), kręcący się słup barberski, jasny i ciemny motyw, układ mobilny oraz interaktywny «bilet» rezerwacji z wyborem usługi, dnia i godziny (w demo nie wysyła danych).
 - **Bot Telegram** (`bot/`, Python + aiogram 3): wybór usługi, dnia i godziny, imię i telefon, potwierdzenie, powiadomienie właściciela, `/my` (moje rezerwacje i odwoływanie), `/admin` (lista rezerwacji dla właściciela). Dane w SQLite.
 
 ### Uruchomienie strony
@@ -44,7 +44,7 @@ A demo website and Telegram bot for a small business (barbershop). Showcase proj
 
 ### What's inside
 
-- **Landing page** (`index.html`, `style.css`, `main.js`): plain HTML/CSS/JS, GSAP + ScrollTrigger (reveal on scroll, parallax, animated counters), smooth scrolling (Lenis), light and dark theme, mobile layout, booking form (does not send data in the demo).
+- **Landing page** (`index.html`, `style.css`, `main.js`): plain HTML/CSS/JS with its own layout and animations: a cursor-following "shadow" spotlight, parallax outline lettering, a manifesto that lights up word by word, a razor line drawn on scroll, a pinned horizontal-scroll price list (GSAP + ScrollTrigger, Lenis), a spinning barber pole, light and dark theme, mobile layout and an interactive booking "ticket" with service, day and time pickers (does not send data in the demo).
 - **Telegram bot** (`bot/`, Python + aiogram 3): pick a service, day and time, enter name and phone, confirm, owner notification, `/my` (own bookings and cancelling), `/admin` (booking list for the owner). Data stored in SQLite.
 
 ### Running the site
